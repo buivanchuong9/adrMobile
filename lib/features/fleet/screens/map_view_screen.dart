@@ -116,7 +116,7 @@ class _MapViewScreenState extends State<MapViewScreen> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Vehicle 59B1-123.45',
+                            'Vehicle 29E2-123.45',
                             style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                               fontWeight: FontWeight.bold,
                               fontSize: 20
@@ -124,7 +124,7 @@ class _MapViewScreenState extends State<MapViewScreen> {
                           ),
                            const SizedBox(height: 4),
                            Text(
-                             'Driver: Nguyen Van A',
+                             'Driver: Bùi Văn Chương',
                              style: const TextStyle(color: AppColors.textSecondary),
                            ),
                         ],

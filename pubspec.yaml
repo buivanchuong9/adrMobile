@@ -31,9 +31,72 @@ dependencies:
   flutter:
     sdk: flutter
 
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
+  # Icons
   cupertino_icons: ^1.0.8
+
+  # ── Supabase (Auth + Realtime) ─────────────────────────────────────────────
+  supabase_flutter: ^2.5.0
+
+  # ── HTTP for ADAS API ──────────────────────────────────────────────────────
+  http: ^1.2.0
+
+  # ── Secure Token Storage ───────────────────────────────────────────────────
+  flutter_secure_storage: ^9.0.0
+
+  # ── State Management ───────────────────────────────────────────────────────
+  provider: ^6.1.2
+  flutter_riverpod: ^2.4.9
+
+  # ── Media ──────────────────────────────────────────────────────────────────
+  image_picker: ^1.0.7
+  video_player: ^2.8.2
+  path_provider: ^2.1.1
+  file_picker: ^10.3.10
+
+  # ── Auth & Security ────────────────────────────────────────────────────────
+  local_auth: ^2.1.8
+  permission_handler: ^11.3.1
+
+  # ── Preferences ────────────────────────────────────────────────────────────
+  shared_preferences: ^2.2.3
+
+  # ── Haptics & Sound ────────────────────────────────────────────────────────
+  vibration: ^2.0.0
+  webview_flutter: ^4.7.0
+  flutter_tts: ^3.8.5
+
+  # ── Charts & Data Visualization ────────────────────────────────────────────
+  fl_chart: ^0.66.2
+  syncfusion_flutter_charts: ^24.2.9
+
+  # ── UI Components ──────────────────────────────────────────────────────────
+  animate_do: ^3.3.2
+  flutter_animate: ^4.5.0
+  gap: ^3.0.1
+  auto_size_text: ^3.0.0
+  flutter_screenutil: ^5.9.0
+  flutter_slidable: ^3.0.1
+  flutter_staggered_animations: ^1.1.1
+
+  # ── Theming ────────────────────────────────────────────────────────────────
+  flex_color_scheme: ^7.3.1
+  google_fonts: ^6.1.0
+  glassmorphism: ^3.0.0
+  blur: ^4.0.0
+
+  # ── Alerts & Notifications ─────────────────────────────────────────────────
+  flash: ^3.1.1
+  top_snackbar_flutter: ^3.1.0
+
+  # ── Images & Icons ────────────────────────────────────────────────────────
+  flutter_svg: ^2.0.10+1
+  cached_network_image: ^3.3.1
+  liquid_pull_to_refresh: ^3.0.1
+
+  # ── Utilities ─────────────────────────────────────────────────────────────
+  intl: ^0.18.1
+  url_launcher: ^6.3.1
+
 
 dev_dependencies:
   flutter_test:

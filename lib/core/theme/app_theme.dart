@@ -9,13 +9,13 @@ class AppTheme {
       fontFamily: 'Roboto', // Default Android font, close enough to clean sans-serif
       colorScheme: const ColorScheme.light(
         primary: AppColors.primary,
-        secondary: AppColors.primary,
+        secondary: AppColors.accent,
         surface: AppColors.background,
         error: AppColors.error,
-        onPrimary: Colors.white,
-        onSecondary: Colors.white,
+        onPrimary: AppColors.white,
+        onSecondary: AppColors.white,
         onSurface: AppColors.textPrimary,
-        onError: Colors.white,
+        onError: AppColors.white,
       ),
       appBarTheme: const AppBarTheme(
         backgroundColor: AppColors.background,
@@ -90,13 +90,13 @@ class AppTheme {
           borderRadius: BorderRadius.circular(12),
           borderSide: const BorderSide(color: AppColors.primary, width: 1.5),
         ),
-        hintStyle: const TextStyle(color: Color(0xFF98A2B3)),
+        hintStyle: const TextStyle(color: AppColors.textTertiary),
         contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
       ),
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
           backgroundColor: AppColors.primary,
-          foregroundColor: Colors.white,
+          foregroundColor: AppColors.white,
           elevation: 0,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(12),
